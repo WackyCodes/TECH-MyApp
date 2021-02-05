@@ -51,19 +51,19 @@ public class ActivityMain extends AppCompatActivity implements ConnectionListene
         , NavigationView.OnNavigationItemSelectedListener
         , FragmentListener {
 
-    // Welcome Activity....
+    // Welcome Activity...
     private TextView textView;
     private ConnectionCheck connectionCheck;
     public static ConnectionListener connectionListener;
 
     //    private Button buttonAuth;
-    // ToolBar ----
+    // ToolBar --
     private Toolbar toolbar;
     private DrawerLayout drawer;
     private NavigationView navigationView;
     // Nav Header ( Drawer )
-    private TextView drawerUserName;
-    private TextView drawerUserEmail;
+//    private TextView drawerUserName;
+//    private TextView drawerUserEmail;
 
     private FrameLayout frameLayoutMain;
     public static FragmentManager fragmentManagerMain;

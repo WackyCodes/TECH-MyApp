@@ -12,7 +12,7 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppBasTheme">
-
+        <activity android:name=".addnew.ActivityAddNewProduct"></activity>
         <activity android:name=".ActivityWelcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,14 +20,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".activity.ActivitySetDatabase"
             android:label="@string/title_activity_set_database"
             android:theme="@style/AppBasTheme.NoActionBar" />
-
         <activity android:name=".login.ActivityAuth" />
-        <activity android:name=".activity.ActivityMain"/>
+        <activity android:name=".activity.ActivityMain" />
         <activity android:name=".activity.ActivityShowFragment" />
         <activity android:name=".activity.ActivityNotification" />
 
@@ -41,7 +39,6 @@
                 <action android:name="android.net.wifi.STATE_CHANGE" />
             </intent-filter>
         </receiver>
-
     </application>
 
 </manifest>
